@@ -34,6 +34,9 @@ yarn install or npm install
 ```
 Once all dependencies are installed we now can run our application. 
 
+----------------------------------------------------------------
+**Run our app locally with sqlite database**
+----------------------------------------------------------------
 The fastest way of run our app is using a sqlite database. First, we need to make a copy of `.env.sqlite.local` and save as `.env`
 
 ```bash
@@ -59,7 +62,9 @@ yarn start:dev
 ```
 Our app is going to be running using port 5000.
 
+----------------------------------------------------------------
 **Run our app locally with postgres database running on Docker**
+----------------------------------------------------------------
 
 Make a copy of `.env.docker.development` and save as `.env`.
 
@@ -94,8 +99,9 @@ yarn start:dev
 ```
 Our app is going to be running using port 5000.
 
-
+----------------------------------------------------------------
 **Run both our app and the database on Docker**
+----------------------------------------------------------------
 
 Make a copy of `.env.docker.development` and save as `.env`.
 

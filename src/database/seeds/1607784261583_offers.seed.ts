@@ -13,7 +13,7 @@ exports.seed = async function(knex: Knex) {
     updated_at: new Date(),
   }, {
     id: 2,
-    advertiser_name: 'Magazine Luiza',
+    advertiser_name: 'Magazine Luiza II',
     url: "magazine.com",
     description: "Offer from magazine",
     starts_at: new Date(),
